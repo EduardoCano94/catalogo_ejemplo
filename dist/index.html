@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Papelería la T@rea | Catálogo</title>
+  <link rel="icon" href="/logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50 text-gray-800">
+
+  <header class="bg-amber-400 border-b-4 border-purple-800">
+    <div class="max-w-6xl mx-auto p-4 flex flex-col sm:flex-row items-center gap-4">
+      <img src="/logo.png" alt="Papelería la T@rea" class="w-24 h-24 rounded-full border-4 border-purple-800 bg-white">
+      <div class="text-center sm:text-left">
+        <h1 class="text-3xl font-extrabold text-purple-900">Papelería la T@rea</h1>
+        <p class="text-purple-900">Libretas, escritura, cargadores, cables y audífonos</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="max-w-6xl mx-auto p-4">
+    <div class="flex flex-wrap gap-2 mb-4">
+      <input id="buscar" placeholder="Buscar producto..."
+             class="border-2 border-purple-800 rounded-lg px-3 py-2 w-full sm:w-72">
+      <select id="categoria" class="border-2 border-purple-800 rounded-lg px-3 py-2">
+        <option value="">Todas las categorías</option>
+                  <option value="Libretas">Libretas</option>
+                  <option value="Escritura">Escritura</option>
+                  <option value="Cargadores">Cargadores</option>
+                  <option value="Cables">Cables</option>
+                  <option value="Audífonos">Audífonos</option>
+              </select>
+    </div>
+
+    <div id="grid" class="grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="libreta profesional raya 100 hojas espiral, pasta dura, tamaño profesional"
+             data-categoria="Libretas">
+          <img src="/img/libreta-raya.svg" alt="Libreta profesional raya 100 hojas" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Libretas'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Libretas</span>
+            <h2 class="font-bold leading-tight">Libreta profesional raya 100 hojas</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Espiral, pasta dura, tamaño profesional</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$45.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Libreta+profesional+raya+100+hojas"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="libreta profesional cuadro grande espiral, 100 hojas, ideal para matemáticas"
+             data-categoria="Libretas">
+          <img src="/img/libreta-cuadro.svg" alt="Libreta profesional cuadro grande" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Libretas'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Libretas</span>
+            <h2 class="font-bold leading-tight">Libreta profesional cuadro grande</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Espiral, 100 hojas, ideal para matemáticas</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$45.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Libreta+profesional+cuadro+grande"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="libreta italiana forma pequeña cosida, 100 hojas, raya"
+             data-categoria="Libretas">
+          <img src="/img/libreta-italiana.svg" alt="Libreta italiana forma pequeña" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Libretas'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Libretas</span>
+            <h2 class="font-bold leading-tight">Libreta italiana forma pequeña</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Cosida, 100 hojas, raya</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$28.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Libreta+italiana+forma+peque%C3%B1a"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="libreta de dibujo hojas blancas gruesas, 50 hojas"
+             data-categoria="Libretas">
+          <img src="/img/libreta-dibujo.svg" alt="Libreta de dibujo" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Libretas'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Libretas</span>
+            <h2 class="font-bold leading-tight">Libreta de dibujo</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Hojas blancas gruesas, 50 hojas</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$55.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Libreta+de+dibujo"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="libreta de bolsillo tamaño compacto, 80 hojas"
+             data-categoria="Libretas">
+          <img src="/img/libreta-bolsillo.svg" alt="Libreta de bolsillo" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Libretas'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Libretas</span>
+            <h2 class="font-bold leading-tight">Libreta de bolsillo</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Tamaño compacto, 80 hojas</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$20.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Libreta+de+bolsillo"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="libreta con diseño pasta dura ilustrada, 80 hojas"
+             data-categoria="Libretas">
+          <img src="/img/libreta-diseno.svg" alt="Libreta con diseño" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Libretas'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Libretas</span>
+            <h2 class="font-bold leading-tight">Libreta con diseño</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Pasta dura ilustrada, 80 hojas</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$65.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Libreta+con+dise%C3%B1o"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="bolígrafo azul punto mediano, tinta de secado rápido"
+             data-categoria="Escritura">
+          <img src="/img/boligrafo-azul.svg" alt="Bolígrafo azul" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Escritura'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Escritura</span>
+            <h2 class="font-bold leading-tight">Bolígrafo azul</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Punto mediano, tinta de secado rápido</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$8.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Bol%C3%ADgrafo+azul"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="bolígrafo negro punto mediano, escritura suave"
+             data-categoria="Escritura">
+          <img src="/img/boligrafo-negro.svg" alt="Bolígrafo negro" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Escritura'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Escritura</span>
+            <h2 class="font-bold leading-tight">Bolígrafo negro</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Punto mediano, escritura suave</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$8.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Bol%C3%ADgrafo+negro"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="pack 12 lapiceros colores tinta de colores surtidos"
+             data-categoria="Escritura">
+          <img src="/img/lapiceros-colores.svg" alt="Pack 12 lapiceros colores" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Escritura'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Escritura</span>
+            <h2 class="font-bold leading-tight">Pack 12 lapiceros colores</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Tinta de colores surtidos</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$85.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Pack+12+lapiceros+colores"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="lápiz hb (caja 12 pzas) madera, con goma"
+             data-categoria="Escritura">
+          <img src="/img/lapiz-hb.svg" alt="Lápiz HB (caja 12 pzas)" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Escritura'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Escritura</span>
+            <h2 class="font-bold leading-tight">Lápiz HB (caja 12 pzas)</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Madera, con goma</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$60.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+L%C3%A1piz+HB+%28caja+12+pzas%29"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="marcatextos fluorescente punta biselada, varios colores"
+             data-categoria="Escritura">
+          <img src="/img/marcatextos.svg" alt="Marcatextos fluorescente" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Escritura'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Escritura</span>
+            <h2 class="font-bold leading-tight">Marcatextos fluorescente</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Punta biselada, varios colores</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$18.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Marcatextos+fluorescente"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="cargador de pared usb entrada usb normal, 2.1a"
+             data-categoria="Cargadores">
+          <img src="/img/cargador-usb.svg" alt="Cargador de pared USB" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Cargadores'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Cargadores</span>
+            <h2 class="font-bold leading-tight">Cargador de pared USB</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Entrada USB normal, 2.1A</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$90.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Cargador+de+pared+USB"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="cargador de pared tipo c carga rápida 20w, entrada usb-c"
+             data-categoria="Cargadores">
+          <img src="/img/cargador-tipoc.svg" alt="Cargador de pared tipo C" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Cargadores'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Cargadores</span>
+            <h2 class="font-bold leading-tight">Cargador de pared tipo C</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Carga rápida 20W, entrada USB-C</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$180.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Cargador+de+pared+tipo+C"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="cargador para auto doble puerto usb"
+             data-categoria="Cargadores">
+          <img src="/img/cargador-auto.svg" alt="Cargador para auto" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Cargadores'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Cargadores</span>
+            <h2 class="font-bold leading-tight">Cargador para auto</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Doble puerto USB</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$110.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Cargador+para+auto"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="cable usb a micro usb 1 metro, carga y datos"
+             data-categoria="Cables">
+          <img src="/img/cable-micro.svg" alt="Cable USB a Micro USB" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Cables'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Cables</span>
+            <h2 class="font-bold leading-tight">Cable USB a Micro USB</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">1 metro, carga y datos</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$55.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Cable+USB+a+Micro+USB"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="cable usb a tipo c 1 metro, carga rápida"
+             data-categoria="Cables">
+          <img src="/img/cable-usb-tipoc.svg" alt="Cable USB a tipo C" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Cables'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Cables</span>
+            <h2 class="font-bold leading-tight">Cable USB a tipo C</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">1 metro, carga rápida</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$75.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Cable+USB+a+tipo+C"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="cable tipo c a tipo c 1 metro, carga rápida y datos"
+             data-categoria="Cables">
+          <img src="/img/cable-tipoc-tipoc.svg" alt="Cable tipo C a tipo C" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Cables'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Cables</span>
+            <h2 class="font-bold leading-tight">Cable tipo C a tipo C</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">1 metro, carga rápida y datos</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$120.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Cable+tipo+C+a+tipo+C"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="cable usb a lightning 1 metro, para iphone"
+             data-categoria="Cables">
+          <img src="/img/cable-lightning.svg" alt="Cable USB a Lightning" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Cables'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Cables</span>
+            <h2 class="font-bold leading-tight">Cable USB a Lightning</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">1 metro, para iPhone</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$130.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Cable+USB+a+Lightning"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="audífonos bluetooth inalámbricos con estuche de carga y micrófono"
+             data-categoria="Audífonos">
+          <img src="/img/audifonos-bt.svg" alt="Audífonos Bluetooth inalámbricos" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Aud%C3%ADfonos'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Audífonos</span>
+            <h2 class="font-bold leading-tight">Audífonos Bluetooth inalámbricos</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Con estuche de carga y micrófono</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$250.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Aud%C3%ADfonos+Bluetooth+inal%C3%A1mbricos"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="audífonos diadema bluetooth plegables, hasta 8 hrs de batería"
+             data-categoria="Audífonos">
+          <img src="/img/audifonos-diadema.svg" alt="Audífonos diadema Bluetooth" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Aud%C3%ADfonos'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Audífonos</span>
+            <h2 class="font-bold leading-tight">Audífonos diadema Bluetooth</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Plegables, hasta 8 hrs de batería</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$320.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Aud%C3%ADfonos+diadema+Bluetooth"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="audífonos con cable entrada normal jack 3.5 mm con micrófono"
+             data-categoria="Audífonos">
+          <img src="/img/audifonos-jack.svg" alt="Audífonos con cable entrada normal" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Aud%C3%ADfonos'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Audífonos</span>
+            <h2 class="font-bold leading-tight">Audífonos con cable entrada normal</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Jack 3.5 mm con micrófono</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$60.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Aud%C3%ADfonos+con+cable+entrada+normal"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+              <div class="producto bg-white rounded-2xl shadow-md overflow-hidden flex flex-col border border-amber-200"
+             data-nombre="audífonos con cable tipo c entrada usb-c con micrófono"
+             data-categoria="Audífonos">
+          <img src="/img/audifonos-tipoc.svg" alt="Audífonos con cable tipo C" loading="lazy"
+               onerror="this.onerror=null;this.src='https://placehold.co/400x300/FFB400/4B2A9B?text=Aud%C3%ADfonos'"
+               class="w-full h-40 object-cover bg-amber-100">
+          <div class="p-4 flex flex-col flex-1">
+            <span class="text-xs font-semibold text-green-700 uppercase">Audífonos</span>
+            <h2 class="font-bold leading-tight">Audífonos con cable tipo C</h2>
+            <p class="text-sm text-gray-600 flex-1 mt-1">Entrada USB-C con micrófono</p>
+            <p class="mt-2 text-xl font-extrabold text-orange-600">$110.00</p>
+            <a target="_blank"
+               href="https://wa.me/525661151201?text=Hola%2C+me+interesa%3A+Aud%C3%ADfonos+con+cable+tipo+C"
+               class="mt-3 text-center bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+          </div>
+
+    <p id="vacio" class="hidden text-center py-10">No se encontraron productos.</p>
+  </section>
+
+  <footer class="text-center text-sm text-purple-900 py-8">
+    <p>Catálogo de demostración · © 2026 Papelería la T@rea</p>
+    <a target="_blank"
+       href="https://wa.me/525661151201?text=Hola%2C+vi+la+demo+del+cat%C3%A1logo+y+quiero+uno+para+mi+negocio"
+       class="inline-block mt-3 bg-purple-800 text-white font-semibold px-5 py-2 rounded-lg hover:bg-purple-900">
+      ¿Quieres un catálogo así para tu negocio? Escríbeme
+    </a>
+  </footer>
+
+  <script>
+    const buscar = document.getElementById('buscar');
+    const categoria = document.getElementById('categoria');
+    const tarjetas = document.querySelectorAll('.producto');
+    const vacio = document.getElementById('vacio');
+
+    function filtrar() {
+      const q = buscar.value.toLowerCase().trim();
+      const c = categoria.value;
+      let visibles = 0;
+      tarjetas.forEach(t => {
+        const ok = t.dataset.nombre.includes(q) && (!c || t.dataset.categoria === c);
+        t.classList.toggle('hidden', !ok);
+        if (ok) visibles++;
+      });
+      vacio.classList.toggle('hidden', visibles > 0);
+    }
+
+    buscar.addEventListener('input', filtrar);
+    categoria.addEventListener('change', filtrar);
+  </script>
+</body>
+</html>

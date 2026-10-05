@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE9A8"/><stop offset="1" stop-color="#FFC83D"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#g)"/>
+<circle cx="200" cy="150" r="118" fill="#fff" opacity=".35"/>
+<ellipse cx="200" cy="270" rx="95" ry="8" fill="#000" opacity=".12"/>
+<g stroke="#4B2A9B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+<path d="M122 215 C230 215 170 95 278 95" fill="none" stroke="#4B2A9B" stroke-width="11"/><path d="M122 215 C230 215 170 95 278 95" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="butt"/><g transform="translate(122 215) scale(-1 1)"><rect x="0" y="-15" width="30" height="30" rx="6" fill="#333"/><rect x="30" y="-11" width="46" height="22" fill="#CFD8DC"/><rect x="40" y="-4" width="28" height="8" fill="#333" stroke="none"/></g><g transform="translate(278 95) scale(1 1)"><rect x="0" y="-15" width="30" height="30" rx="6" fill="#333"/><rect x="30" y="-6" width="42" height="12" rx="2" fill="#CFD8DC"/><line x1="50" y1="-3" x2="50" y2="3" stroke-width="2"/><line x1="56" y1="-3" x2="56" y2="3" stroke-width="2"/><line x1="62" y1="-3" x2="62" y2="3" stroke-width="2"/></g><text x="200" y="262" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="17" fill="#4B2A9B" stroke="none" text-anchor="middle">USB a Lightning</text>
+</g></svg>
